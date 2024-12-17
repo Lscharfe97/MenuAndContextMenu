@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Menü und Kontextmenüs</string>
+    <string name="nav_header_subtitle">von Sahel, Daniel, Fabian T. und Louis</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Start Menü</string>
+    <string name="menu_option">Optionsmenü</string>
+    <string name="menu_context">Kontextmenü</string>
+    <string name="menu_popup">Pop-Up Menü</string>
+</resources>

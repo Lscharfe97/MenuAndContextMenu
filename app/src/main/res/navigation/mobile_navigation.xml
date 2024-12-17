@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeMenuFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_option"
+        android:name="com.example.myapplication.ui.optionmenu.OptionMenuFragment"
+        android:label="@string/menu_option"
+        tools:layout="@layout/fragment_option" />
+    <fragment
+        android:id="@+id/nav_context"
+        android:name="com.example.myapplication.ui.contextmenu.ContextMenuFragment"
+        android:label="@string/menu_context"
+        tools:layout="@layout/fragment_context" />
+
+    <fragment
+        android:id="@+id/nav_popup"
+        android:name="com.example.myapplication.ui.popupmenu.PopUpFragment"
+        android:label="@string/menu_popup"
+        tools:layout="@layout/fragment_popup" />
+</navigation>
